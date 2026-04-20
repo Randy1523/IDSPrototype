@@ -1,1 +1,29 @@
 This is where the tag code will go.
+
+connections:
+Splitter 1 (GND) -> Nano GND
+Splitter 2 (VCC) -> Nano 5V
+
+BLE Module
+	GND -> Splitter 1
+	VCC -> Splitter 2 
+	TX -> D2
+	RX -> D3
+	STATE -> (leave)
+	BAK -> (leave)
+Screen
+	GND -> Splitter 1
+	VCC -> Splitter 3
+	SDA -> A4
+	SCL -> A5
+	RES -> D7
+	DC -> D6
+NRF24L01
+	GND -> Splitter 1
+	VCC -> Splitter 2
+	CE -> D9	
+	CSN -> D10
+	SCK -> D13
+	MOSI -> D11
+	MISO -> D12
+	IRQ -> N/A
