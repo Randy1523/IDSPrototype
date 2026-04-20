@@ -27,3 +27,4 @@ NRF24L01
 	MOSI -> D11
 	MISO -> D12
 	IRQ -> N/A
+.
